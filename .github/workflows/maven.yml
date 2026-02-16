@@ -41,7 +41,7 @@ jobs:
         with:
           # If using Docker Hub, registry can be omitted.
           # If using ACR/GCR, use your 'registry-url.io'
-          registry: registry-url.io
+         
           username: ${{ secrets.DOCKER_USER }}
           password: ${{ secrets.DOCKER_PASS }}
 
